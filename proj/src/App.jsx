@@ -69,10 +69,6 @@ export default function App() {
         </section>
 
         <Reveal as="section" className="sec narrow" aria-labelledby="h-dato">
-          <h2 id="h-dato" className="display h2">¡Dato importante!</h2>
-          <aside className="callout" role="note">
-            <p>{c.dato}</p>
-          </aside>
           <img className="dato-img" src={img('dato')} alt="" aria-hidden="true" loading="lazy" />
         </Reveal>
 
