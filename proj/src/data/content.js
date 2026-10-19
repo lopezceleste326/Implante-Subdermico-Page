@@ -3,7 +3,7 @@ export const img = (n) => `${import.meta.env.BASE_URL}img/${n}.webp`
 
 export const content = {
   titulo: '¡Un pequeño implante, una gran decisión!',
-  subtitulo: 'IntrodImplante subdérmico: cuidá tu presente, elegí tu futuro',
+  subtitulo: 'Implante subdérmico: cuidá tu presente, elegí tu futuro',
   queEs: 'El implante subdérmico es un método anticonceptivo hormonal de larga duración que consiste en una pequeña varilla flexible que se coloca debajo de la piel del brazo. Libera una hormona llamada progestágeno, que ayuda a prevenir el embarazo.',
   funciona: [
     { t: 'Inhibe la ovulación', d: 'evita que el ovario libere un óvulo, disminuyendo la posibilidad de embarazo.', i: 'ovulacion', alt: 'Calendario con la palabra ovulación y una lupa sobre un óvulo' },
